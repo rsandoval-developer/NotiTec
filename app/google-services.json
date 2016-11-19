@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134515028820",
+    "firebase_url": "https://notitec2-f3f8a.firebaseio.com",
+    "project_id": "notitec2-f3f8a",
+    "storage_bucket": "notitec2-f3f8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134515028820:android:60cf016e244ee503",
+        "android_client_info": {
+          "package_name": "com.isandoval.notitec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134515028820-6j7d7md60v5lkp3gjb171in2hn9kke8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isandoval.notitec",
+            "certificate_hash": "EE020636D422E74E3149D65ABE7A2C88EB791857"
+          }
+        },
+        {
+          "client_id": "134515028820-aidqljqi1lp85of9pigqul2ito4505v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsd-VJJfNIueIR5OkoLl0J7PQ4KZvhD3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134515028820-aidqljqi1lp85of9pigqul2ito4505v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

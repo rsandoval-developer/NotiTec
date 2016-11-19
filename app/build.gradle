@@ -7,7 +7,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.rsandoval.notitec"
+        applicationId "com.isandoval.notitec"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
@@ -29,4 +29,16 @@ dependencies {
     compile 'com.android.support:support-v4:24.2.1'
     //butterknife
     compile 'com.jakewharton:butterknife:8.4.0'
-    apt 'com.jakewharton:butterknife-compiler:8.4.0'}
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    // firebase
+    compile 'com.google.firebase:firebase-database:9.8.0'
+
+    compile 'com.google.firebase:firebase-core:9.6.1'
+
+
+
+}
+apply plugin: 'com.google.gms.google-services'
+
+

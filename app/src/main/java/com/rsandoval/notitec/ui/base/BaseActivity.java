@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.rsandoval.notitec.R;
+import com.rsandoval.notitec.ui.fragments.GaleriaFragment;
 import com.rsandoval.notitec.ui.fragments.NoticiasFragment;
 
 public class BaseActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -90,9 +91,9 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_noticias) {
-            // Handle the camera action
+            replaceFragment(new NoticiasFragment());
         } else if (id == R.id.nav_gallery) {
-
+              replaceFragment(new GaleriaFragment());
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -106,5 +107,12 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void replaceFragment(Fragment fragment){
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content, fragment)
+                .commit();
     }
 }
